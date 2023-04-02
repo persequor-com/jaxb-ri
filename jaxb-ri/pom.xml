@@ -32,12 +32,6 @@
     </description>
 
     <url>https://eclipse-ee4j.github.io/jaxb-ri</url>
-    <scm>
-        <connection>scm:git:ssh://git@github.com/eclipse-ee4j/jaxb-ri</connection>
-        <developerConnection>scm:git:ssh://git@github.com/eclipse-ee4j/jaxb-ri.git</developerConnection>
-        <url>https://github.com/eclipse-ee4j/jaxb-ri.git</url>
-        <tag>HEAD</tag>
-    </scm>
 
     <licenses>
         <license>
@@ -340,27 +334,27 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
                 <executions>
-                    <execution>
-                        <id>jaxb.version</id>
-                        <goals>
-                            <goal>parse-version</goal>
-                        </goals>
-                        <phase>validate</phase>
-                        <configuration>
-                            <propertyPrefix>jaxb</propertyPrefix>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>jaxb-api.version</id>
-                        <goals>
-                            <goal>parse-version</goal>
-                        </goals>
-                        <phase>validate</phase>
-                        <configuration>
-                            <propertyPrefix>jaxb-api</propertyPrefix>
-                            <versionString>${jaxb-api.version}</versionString>
-                        </configuration>
-                    </execution>
+<!--                    <execution>-->
+<!--                        <id>jaxb.version</id>-->
+<!--                        <goals>-->
+<!--                            <goal>parse-version</goal>-->
+<!--                        </goals>-->
+<!--                        <phase>validate</phase>-->
+<!--                        <configuration>-->
+<!--                            <propertyPrefix>jaxb</propertyPrefix>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+<!--                    <execution>-->
+<!--                        <id>jaxb-api.version</id>-->
+<!--                        <goals>-->
+<!--                            <goal>parse-version</goal>-->
+<!--                        </goals>-->
+<!--                        <phase>validate</phase>-->
+<!--                        <configuration>-->
+<!--                            <propertyPrefix>jaxb-api</propertyPrefix>-->
+<!--                            <versionString>${jaxb-api.version}</versionString>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
                     <execution>
                         <id>add-legal-resource</id>
                         <phase>generate-resources</phase>

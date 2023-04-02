@@ -19,7 +19,7 @@
         <groupId>org.glassfish.jaxb</groupId>
         <artifactId>jaxb-bom</artifactId>
         <relativePath>../bom/pom.xml</relativePath>
-        <version>3.0.2-strict-xml-escape</version>
+        <version>3.0.2-strict-xml-escaping</version>
     </parent>
 
     <groupId>com.sun.xml.bind</groupId>

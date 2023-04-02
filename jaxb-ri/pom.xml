@@ -18,13 +18,13 @@
     <parent>
         <groupId>com.sun.xml.bind</groupId>
         <artifactId>jaxb-bom-ext</artifactId>
-        <version>3.0.2-single-quote-escape</version>
+        <version>3.0.2-strict-xml-escape</version>
         <relativePath>boms/bom-ext/pom.xml</relativePath>
     </parent>
 
     <groupId>com.sun.xml.bind.mvn</groupId>
     <artifactId>jaxb-parent</artifactId>
-    <version>3.0.2-single-quote-escape</version>
+    <version>3.0.2-strict-xml-escape</version>
     <packaging>pom</packaging>
     <name>Jakarta XML Binding Implementation</name>
     <description>
@@ -32,12 +32,6 @@
     </description>
 
     <url>https://eclipse-ee4j.github.io/jaxb-ri</url>
-    <scm>
-        <connection>scm:git:ssh://git@github.com/eclipse-ee4j/jaxb-ri</connection>
-        <developerConnection>scm:git:ssh://git@github.com/eclipse-ee4j/jaxb-ri.git</developerConnection>
-        <url>https://github.com/eclipse-ee4j/jaxb-ri.git</url>
-        <tag>HEAD</tag>
-    </scm>
 
     <licenses>
         <license>
